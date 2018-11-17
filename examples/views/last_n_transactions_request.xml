@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FIXML xsi:schemaLocation="http://www.finacle.com/fixml getLastNTransactionsWithPagination.xsd" xmlns="http://www.finacle.com/fixml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Header>
+<RequestHeader>
+<MessageKey>
+<RequestUUID>Req_1381166044837</RequestUUID>
+<ServiceRequestId>getLastNTransactionsWithPagination</ServiceRequestId>
+<ServiceRequestVersion>10.2</ServiceRequestVersion>
+<ChannelId>COR</ChannelId>
+<LanguageId></LanguageId>
+</MessageKey>
+<RequestMessageInfo>
+<BankId></BankId>
+<TimeZone></TimeZone>
+<EntityId></EntityId>
+<EntityType></EntityType>
+<ArmCorrelationId></ArmCorrelationId>
+<MessageDateTime>2013-09-07T22:44:04.837</MessageDateTime>
+</RequestMessageInfo>
+<Security>
+<Token>
+<PasswordToken>
+<UserId></UserId>
+<Password></Password>
+</PasswordToken>
+</Token>
+<FICertToken></FICertToken>
+<RealUserLoginSessionId></RealUserLoginSessionId>
+<RealUser></RealUser>
+<RealUserPwd></RealUserPwd>
+<SSOTransferToken></SSOTransferToken>
+</Security>
+</RequestHeader>
+</Header>
+
+<Body>
+  <getLastNTransactionsWithPaginationRequest>
+    <PaginatedAccountTransactionList>
+      <accountListElement>
+        <acid>1000110010002216</acid>
+        <branchId>0001</branchId>
+      </accountListElement>
+      <lastNTransactions>15</lastNTransactions>
+    </PaginatedAccountTransactionList>
+  </getLastNTransactionsWithPaginationRequest>
+</Body>
+
+</FIXML>

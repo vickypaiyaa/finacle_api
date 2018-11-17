@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FIXML xsi:schemaLocation="http://www.finacle.com/fixml executeFinacleScript.xsd" xmlns="http://www.finacle.com/fixml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Header>
+<RequestHeader>
+<MessageKey>
+<RequestUUID>Req_1361855819377</RequestUUID>
+<ServiceRequestId>executeFinacleScript</ServiceRequestId>
+<ServiceRequestVersion>10.2</ServiceRequestVersion>
+<ChannelId>COR</ChannelId>
+<LanguageId></LanguageId>
+</MessageKey>
+<RequestMessageInfo>
+<BankId></BankId>
+<TimeZone></TimeZone>
+<EntityId></EntityId>
+<EntityType></EntityType>
+<ArmCorrelationId></ArmCorrelationId>
+<MessageDateTime>2013-01-26T10:46:59.377</MessageDateTime>
+</RequestMessageInfo>
+<Security>
+<Token>
+<PasswordToken>
+<UserId></UserId>
+<Password></Password>
+</PasswordToken>
+</Token>
+<FICertToken></FICertToken>
+<RealUserLoginSessionId></RealUserLoginSessionId>
+<RealUser></RealUser>
+<RealUserPwd></RealUserPwd>
+<SSOTransferToken></SSOTransferToken>
+</Security>
+</RequestHeader>
+</Header>
+
+<Body>
+
+<executeFinacleScriptRequest>
+  <ExecuteFinacleScriptInputVO>
+    <requestId>custChqBookRequest</requestId>
+  </ExecuteFinacleScriptInputVO>
+  <executeFinacleScript_CustomData>
+    <AccountID>PRATUS</AccountID>
+    <ChequeType>A</ChequeType>
+  </executeFinacleScript_CustomData>
+</executeFinacleScriptRequest>
+
+</Body>
+</FIXML>
